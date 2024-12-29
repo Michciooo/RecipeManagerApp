@@ -4,7 +4,7 @@ GET http://localhost:3000/
 ###
 
 ###
-POST http://localhost:3000/abc
+POST http://localhost:3000/recipe
 Content-Type: application/json
 
 {
@@ -13,4 +13,21 @@ Content-Type: application/json
   "instruction":"fkdjshksdfjhskdfhsdkfjhsdkfjhsdkjfhsdkfs",
   "rate":1
 }
+###
+
+###
+PUT http://localhost:3000/recipe/6771921483b0ca4c7782349c
+Content-Type: application/json
+
+{
+  "nazwa":"hh",
+  "ingredients":["asdsaadssd","dssdadds","kadjsdaskjadd"],
+  "instruction":"hhh",
+  "rate":1
+}
+###
+
+###
+DELETE localhost:3000/recipe/6771921483b0ca4c7782349c
+Content-Type: application/json
 ###
