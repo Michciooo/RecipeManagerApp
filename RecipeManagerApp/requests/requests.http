@@ -8,10 +8,10 @@ POST http://localhost:3000/recipe
 Content-Type: application/json
 
 {
-  "nazwa":"lalaa",
-  "ingredients":["asdsaadssd","dssdadds","kadjsdaskjadd"],
-  "instruction":"fkdjshksdfjhskdfhsdkfjhsdkfjhsdkjfhsdkfs",
-  "rate":1
+  "nazwa":"kmkmkmkmka",
+  "ingredients":["kmjikm"],
+  "instruction":"kmkmkmkmkk",
+  "rate":4
 }
 ###
 
